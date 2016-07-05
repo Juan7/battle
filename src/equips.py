@@ -20,7 +20,7 @@ class LeatherArmor(Equip):
 
 class WoodSword(Equip):
 
-    equip_type = 'sword'
+    equip_type = 'weapon'
 
     def __init__(self, life_points=20, properties={}, resistence={'water': 50}, attack=150, defense=10):
         self.life_points = life_points
